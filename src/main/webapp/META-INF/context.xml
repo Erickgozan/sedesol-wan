@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/proyectoSedesol">
+    
+    <Resource name="jdbc/sedesol" 
+              type="javax.sql.DataSource" 
+              maxActive="100" 
+              maxIdle="30" 
+              maxWait="10000" 
+              url="jdbc:mysql://node51136-sedesol.jl.serv.net.mx:3306/proyectosedesol?serverTimezone=UTC"
+              driverClassName="com.mysql.jdbc.Driver" 
+              username="root" 
+              password="26kHy7HokB" />
+  
+    
+</Context>
